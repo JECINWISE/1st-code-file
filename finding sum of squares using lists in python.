@@ -1,0 +1,11 @@
+def sum_of_squares(numbers):
+    total = 0
+    for number in numbers:
+        total += number ** 2
+    return total
+
+numbers = [1, 2, 3, 4, 5]
+
+sum_squares = sum_of_squares(numbers)
+
+print("The sum of squares is:", sum_squares)
